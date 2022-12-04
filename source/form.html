@@ -48,15 +48,14 @@
             Оставьте свой отзыв
           </p>
           <p class="feedback__intro">
-            Помогите нашим отелям стать лучше! <br>оставьте отзыв о них, а также о <br>посещенных вами
-            <br>достопримечательностях
+            Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях
           </p>
         </header>
       </div>
     </section>
     <div class="order">
       <h2 class="title">Представьтесь:</h2>
-      <form action="" class="order__form">
+      <form class="order__form" name="feedback" method="POST" action="https://echo.htmlacademy.ru" >
         <fieldset class="order__name">
           <legend class="visually-hidden">Анкета ИМЯ ФАМИЛИЯ ОТЧЕСТВО</legend>
           <label class="input-text order__input-text">
@@ -88,15 +87,15 @@
         <fieldset class="order_impression">
           <h2 class="title-impression order__contacts-title">Ваше Общее впечатление:</h2>
           <label class="feelings order__radio">
-            <input type="radio" name="impression" value="email" checked>
+            <input type="radio" name="impression" value="rather positive" checked>
             <span>Скорее положительное</span>
           </label>
           <label class="feelings order__radio">
-            <input type="radio" name="impression" value="phone">
+            <input type="radio" name="impression" value="rather negative">
             <span>Скорее отрицательное</span>
           </label>
           <label class="feelings order__radio">
-            <input type="radio" name="impression" value="mail">
+            <input type="radio" name="impression" value="i find it difficult to answer">
             <span>Затрудняюсь ответить</span>
           </label>
         </fieldset>
@@ -104,19 +103,19 @@
         <fieldset class="order_places">
           <h2 class="title-places order__contacts-title">Посещенные достопримечательности:</h2>
           <label class="attractions order__radio">
-            <input type="checkbox" name="attractions" value="email" checked>
+            <input type="checkbox" name="attractions" value="devil's bridge" checked>
             <span>Мост Дьявола</span>
           </label>
           <label class="attractions order__radio">
-            <input type="checkbox" name="attractions" value="phone" checked>
+            <input type="checkbox" name="attractions" value="the bell mountain" checked>
             <span>Гора-Колокол</span>
           </label>
           <label class="attractions order__radio">
-            <input type="checkbox" name="attractions" value="mail" checked>
+            <input type="checkbox" name="attractions" value="slide park" checked>
             <span>Слайд-парк</span>
           </label>
           <label class="attractions order__radio">
-            <input type="checkbox" name="attractions" value="gmail">
+            <input type="checkbox" name="attractions" value="red rocks">
             <span>Красные скалы</span>
           </label>
         </fieldset>
