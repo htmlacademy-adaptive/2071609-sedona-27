@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
 * Студент: [Александр Шуткин](https://up.htmlacademy.ru/adaptive/27/user/2071609).
-* Наставник: [Сергей Зубов](https://htmlacademy.ru/profile/serj).
+* Наставник: [Александр Бабченко](https://htmlacademy.ru/profile/babtshe).
 
 ---
 
