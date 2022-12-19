@@ -1,78 +1,62 @@
+@import "main-header.less";
+@import "main-container";
+@import "product-card";
+@import "order";
+@import "product-list";
+@import "product-content";
+@import "main-header__logo";
+@import "main-nav__list";
+@import "page-list__item";
+@import "main-nav__wrapper";
+@import "your-emotions";
+
+@font-face {
+  font-family: "Oswald";
+  src: url("/fonts/oswaldregular.woff2") format("woff2"), url("/source/fonts/ptsans.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 body {
-    background-color: #ff6347;
-    font-family: "PT Sans", sans-serif;
-    font-style: normal;
-    color: #000000;
-    width: 320px;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.main-header {
-    min-width: 320px;
-    background-color: #ffffff;
-}
-
-.main-header__logo {
-    display: flex;
-    justify-content: center;
-}
-
-.main-container {
-    background-color: #ffffff;
-    width: 320px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.dignities__slogan {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 26px;
-}
-
-.main-nav__list {
-    width: 320px;
-    height: 223px;
-    background: #81b3d2;
-    padding: 0;
-    margin: 0;
-}
-
-.page-list__item {
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.main-nav__wrapper {
-    padding: 0;
-    margin: 0;
+  background-color: #ff6347;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  color: #000000;
+  width: 320px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-.order {
-    min-width: 320px;
-    margin: 24px 0 24px 0;
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+textarea {
+  width: 279px;
+  height: 150px;
+  border: 0;
+  background-color: rgb(242, 242, 242);
 }
