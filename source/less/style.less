@@ -1,14 +1,15 @@
 @import "main-header.less";
 @import "main-container";
-@import "product-card";
-@import "order";
-@import "product-list";
 @import "product-content";
 @import "main-header__logo";
 @import "main-nav__list";
 @import "page-list__item";
 @import "main-nav__wrapper";
-@import "your-emotions";
+@import "dignities__header";
+@import "attractions__list";
+@import "register";
+@import "content";
+@import "video-content";
 
 @font-face {
   font-family: "Oswald";
@@ -49,6 +50,9 @@ a {
 }
 
 fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   margin: 0;
   padding: 0;
   border: 0;
@@ -59,4 +63,33 @@ textarea {
   height: 150px;
   border: 0;
   background-color: rgb(242, 242, 242);
+}
+
+button {
+  margin: 29px 18px 39px 18px;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  width: 284px;
+  height: 58px;
+  background-color: rgb(129, 179, 210);
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+textarea {
+  width: 247px;
+  height: 118px;
+  padding: 16px;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
 }
